@@ -16,6 +16,9 @@ Empowering the Nation offers:
 - Six-week skill development programs
 - Hands-on training and certification upon completion
 - Locations: Sandton, Rosebank, Randburg
+- The app supports both mobile and web platforms through Expo, allowing learners to access training materials and registration forms easily.
+- The platform emphasizes career advancement, practical experience, and affordable learning through a discount model for multiple enrollments.
+- Designed to be used by both employees and independent learners seeking to upskill.
 
 ## Features
 - Course browsing (six-month and six-week programs)
@@ -23,6 +26,9 @@ Empowering the Nation offers:
 - Fee calculator (with discounts for multiple courses)
 - Contact and venue details, business hours
 - Registration and inquiry via contact form
+- User-Friendly Interface: Simple, responsive UI designed for easy navigation.
+- Cross-Platform Support: Works on Android, iOS and Web.
+- Discount Tracker: Tracks user enrollments and calculates percentage discounts dynamically.
 
 ## Installation
 1. Clone the repository:
