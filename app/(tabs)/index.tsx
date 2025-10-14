@@ -42,7 +42,7 @@ export default function HomeScreen() {
                 <Text style={styles.courseLinkTitle}>Six-Month Courses</Text>
                 <Text style={styles.courseLinkSubtitle}>In-depth professional training</Text>
               </View>
-              <ArrowRight size={24} color="#1e40af" />
+              <ArrowRight size={24} color="#1eaf6eff" />
             </View>
           </TouchableOpacity>
 

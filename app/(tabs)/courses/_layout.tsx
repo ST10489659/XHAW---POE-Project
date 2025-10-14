@@ -5,7 +5,7 @@ export default function CoursesLayout() {
     <Stack
       screenOptions={{
         headerStyle: {
-          backgroundColor: '#1e40af',
+          backgroundColor: '#1eaf73ff',
         },
         headerTintColor: '#ffffff',
         headerTitleStyle: {

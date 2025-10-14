@@ -51,7 +51,7 @@ export default function CourseDetailScreen() {
   if (loading) {
     return (
       <View style={styles.centerContainer}>
-        <ActivityIndicator size="large" color="#1e40af" />
+        <ActivityIndicator size="large" color="#1eaf73ff" />
         <Text style={styles.loadingText}>Loading course details...</Text>
       </View>
     );
@@ -82,12 +82,12 @@ export default function CourseDetailScreen() {
 
         <View style={styles.infoCards}>
           <View style={styles.infoCard}>
-            <Clock size={24} color="#1e40af" />
+            <Clock size={24} color="#1eaf73ff" />
             <Text style={styles.infoLabel}>Duration</Text>
             <Text style={styles.infoValue}>{course.duration}</Text>
           </View>
           <View style={styles.infoCard}>
-            <DollarSign size={24} color="#1e40af" />
+            <DollarSign size={24} color="#1eaf73ff" />
             <Text style={styles.infoLabel}>Course Fee</Text>
             <Text style={styles.infoValue}>R{course.fee.toFixed(2)}</Text>
           </View>
@@ -95,7 +95,7 @@ export default function CourseDetailScreen() {
 
         <View style={styles.section}>
           <View style={styles.sectionHeader}>
-            <BookOpen size={20} color="#1e40af" />
+            <BookOpen size={20} color="#1eaf73ff" />
             <Text style={styles.sectionTitle}>Course Description</Text>
           </View>
           <Text style={styles.description}>{course.description}</Text>
@@ -103,7 +103,7 @@ export default function CourseDetailScreen() {
 
         <View style={styles.section}>
           <View style={styles.sectionHeader}>
-            <Award size={20} color="#1e40af" />
+            <Award size={20} color="#1eaf73ff" />
             <Text style={styles.sectionTitle}>What You'll Learn</Text>
           </View>
           <View style={styles.bulletPoints}>
@@ -175,7 +175,7 @@ const styles = StyleSheet.create({
     alignSelf: 'flex-start',
   },
   badgeText: {
-    color: '#1e40af',
+    color: '#1eaf73ff',
     fontSize: 14,
     fontWeight: '600',
   },
@@ -248,17 +248,17 @@ const styles = StyleSheet.create({
     padding: 20,
     marginBottom: 16,
     borderLeftWidth: 4,
-    borderLeftColor: '#1e40af',
+    borderLeftColor: '#1eaf73ff',
   },
   discountTitle: {
     fontSize: 18,
     fontWeight: 'bold',
-    color: '#1e40af',
+    color: '#1eaf73ff',
     marginBottom: 8,
   },
   discountText: {
     fontSize: 14,
-    color: '#1e40af',
+    color: '#1eaf73ff',
     lineHeight: 22,
   },
   ctaSection: {
@@ -266,7 +266,7 @@ const styles = StyleSheet.create({
     marginTop: 8,
   },
   primaryButton: {
-    backgroundColor: '#1e40af',
+    backgroundColor: '#1eaf73ff',
     borderRadius: 8,
     paddingVertical: 16,
     alignItems: 'center',
@@ -282,10 +282,10 @@ const styles = StyleSheet.create({
     paddingVertical: 16,
     alignItems: 'center',
     borderWidth: 2,
-    borderColor: '#1e40af',
+    borderColor: '#1eaf73ff',
   },
   secondaryButtonText: {
-    color: '#1e40af',
+    color: '#1eaf73ff',
     fontSize: 16,
     fontWeight: 'bold',
   },
@@ -301,7 +301,7 @@ const styles = StyleSheet.create({
     marginBottom: 16,
   },
   retryButton: {
-    backgroundColor: '#1e40af',
+    backgroundColor: '#1eaf73ff',
     paddingHorizontal: 24,
     paddingVertical: 12,
     borderRadius: 8,
