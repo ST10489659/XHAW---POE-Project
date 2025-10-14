@@ -1,6 +1,7 @@
 # Empowering the Nation - Skills Development & Training
 
-Welcome to Empowering the Nation! This app provides comprehensive training programs designed to equip individuals with practical skills for personal and professional development. Courses are taught by experienced instructors at three convenient locations across Johannesburg.
+Welcome to Empowering the Nation! 
+This app provides comprehensive training programs designed to equip individuals with practical skills for personal and professional development. Courses are taught by experienced instructors at three convenient locations across Johannesburg.
 
 ## Table of Contents
 - [Overview](#overview)
