@@ -1,3 +1,4 @@
+import React from 'react';
 import { Tabs } from 'expo-router';
 import { Home, BookOpen, Calculator, Phone } from 'lucide-react-native';
 
