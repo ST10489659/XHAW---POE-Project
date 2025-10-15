@@ -69,6 +69,42 @@ This project is licensed under the MIT License.
 
 ---
 
+# Screenshots
+
+# App Screen:
+
+### Home Screen
+![alt text](assets/images/Screenshots/Homescreen1.png)
+![alt text](assets/images/Screenshots/Homescreen2.png)
+### Courses List
+![alt text](assets/images/Screenshots/Coursescreen1.png)
+![alt text](assets/images/Screenshots/Coursescreen2.png)
+### Fee Calculator
+![alt text](<assets/images/Screenshots/Fee Calculatorscreen1.png>)
+![alt text](<assets/images/Screenshots/Fee Calculatorscreen2.png>)
+### Contact & Venues
+![alt text](assets/images/Screenshots/Contactscreen1.png)
+![alt text](assets/images/Screenshots/Contactscreen2.png)
+![alt text](assets/images/Screenshots/Contactscreen3.png)
+
+# Laptop Screen:
+### Home Screen
+![alt text](<assets/images/Screenshots/Laptop Homescreen1.png>)
+![alt text](<assets/images/Screenshots/Laptop Homescreen2.png>)
+### Courses List
+![alt text](<assets/images/Screenshots/Laptop Coursescreen1.png>)
+![alt text](assets/images/Screenshots/Laptop Coursescreen2.png)
+### Fee Calculator
+![alt text](<assets/images/Screenshots/Laptop Fee Calculatorscreen1.png>)
+![alt text](<assets/images/Screenshots/Laptop Fee Calculatorscreen2.png>)
+![alt text](<assets/images/Screenshots/Laptop Fee Calculatorscreen3.png>)
+### Contact & Venues
+![alt text](<assets/images/Screenshots/Laptop Contactscreen1.png>)
+![alt text](<assets/images/Screenshots/Laptop Contactscreen2.png>)
+![alt text](<assets/images/Screenshots/Laptop Contactscreen3.png>)
+
+---
+
 ### Code Reference
 Most navigation and functionality are handled via `expo-router` and React Native components. For details, see:
 - [app/(tabs)/index.tsx](app/(tabs)/index.tsx): Main home and navigation
@@ -78,37 +114,3 @@ Most navigation and functionality are handled via `expo-router` and React Native
 
 For further details, please refer to the source code in the respective files.
 
-
-# Screenshots
-
-# App Screen:
-
-### Home Screen
-![Home Screen]![alt text](assets/images/Screenshots/Homescreen1.png)
-![alt text](assets/images/Screenshots/Homescreen2.png)
-### Courses List
-![Courses List]![alt text](assets/images/Screenshots/Coursescreen1.png)
-![alt text](assets/images/Screenshots/Coursescreen2.png)
-### Fee Calculator
-![Fee Calculator]![alt text](<assets/images/Screenshots/Fee Calculatorscreen1.png>)
-![alt text](<assets/images/Screenshots/Fee Calculatorscreen2.png>)
-### Contact & Venues
-![Contact & Venues]![alt text](assets/images/Screenshots/Contactscreen1.png)
-![alt text](assets/images/Screenshots/Contactscreen2.png)
-![alt text](assets/images/Screenshots/Contactscreen3.png)
-
-# Laptop Screen:
-### Home Screen
-![Home Screen]![alt text](<assets/images/Screenshots/Laptop Homescreen1.png>)
-![alt text](<assets/images/Screenshots/Laptop Homescreen2.png>)
-### Courses List
-![Courses List]![alt text](<assets/images/Screenshots/Laptop Coursescreen1.png>)
-![alt text](assets/images/Screenshots/Laptop Coursescreen2.png)
-### Fee Calculator
-![Fee Calculator]![alt text](<assets/images/Screenshots/Laptop Fee Calculatorscreen1.png>)
-![alt text](<assets/images/Screenshots/Laptop Fee Calculatorscreen2.png>)
-![alt text](<assets/images/Screenshots/Laptop Fee Calculatorscreen3.png>)
-### Contact & Venues
-![Contact & Venues]![alt text](<assets/images/Screenshots/Laptop Contactscreen1.png>)
-![alt text](<assets/images/Screenshots/Laptop Contactscreen2.png>)
-![alt text](<assets/images/Screenshots/Laptop Contactscreen3.png>)
