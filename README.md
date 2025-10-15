@@ -10,6 +10,7 @@ This app provides comprehensive training programs designed to equip individuals 
 - [Usage](#usage)
 - [Contact](#contact)
 - [License](#license)
+- [Screenshot](#Screenshot)
 
 ## Overview
 Empowering the Nation offers:
@@ -74,21 +75,6 @@ Most navigation and functionality are handled via `expo-router` and React Native
 - [app/(tabs)/courses/*](app/(tabs)/courses/): Course listings and details
 - [app/(tabs)/calculator.tsx](app/(tabs)/calculator.tsx): Fee calculator logic
 - [app/(tabs)/contact.tsx](app/(tabs)/contact.tsx): Contact and venue details
-
-## Website / Web App
-
-This app runs on mobile and web!  
-To run locally:
-```bash
-npm run dev
-```
-To build for production:
-```bash
-npm run build:web
-```
-Deploy the `web-build/` folder to a static host like Netlify, Vercel, or GitHub Pages.
-
-You can customize web meta tags in `web/index.html`.
 
 For further details, please refer to the source code in the respective files.
 ## Screenshots
