@@ -4,14 +4,25 @@ import { Phone, Mail, MapPin, Clock } from 'lucide-react-native';
 
 const venues = [
   {
-    name: "The IIE's Varsity College",
-    address: 'The Quadrant Building, 146 Campground Road, Cape Town, 7708',
-    phone: '021 685 5021',
-    email: 'oc@varsitycollege.co.za',
-    coordinates: {
-      latitude: -33.960960388183594,
-      longitude: 18.471986770629883,
-    },
+    name: 'Sandton Campus',
+    address: '123 Rivonia Road, Sandton, Johannesburg, 2196',
+    phone: '011 234 5678',
+    email: 'sandton@empoweringthenation.co.za',
+    coordinates: { latitude: -26.1076, longitude: 28.0567 },
+  },
+  {
+    name: 'Rosebank Campus',
+    address: '45 Oxford Road, Rosebank, Johannesburg, 2196',
+    phone: '011 345 6789',
+    email: 'rosebank@empoweringthenation.co.za',
+    coordinates: { latitude: -26.1469, longitude: 28.0404 },
+  },
+  {
+    name: 'Randburg Campus',
+    address: '78 Republic Road, Randburg, Johannesburg, 2194',
+    phone: '011 456 7890',
+    email: 'randburg@empoweringthenation.co.za',
+    coordinates: { latitude: -26.0942, longitude: 27.9820 },
   },
 ];
 
