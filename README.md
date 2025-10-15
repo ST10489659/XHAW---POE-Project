@@ -3,6 +3,9 @@
 Welcome to Empowering the Nation! 
 This app provides comprehensive training programs designed to equip individuals with practical skills for personal and professional development. Courses are taught by experienced instructors at three convenient locations across Johannesburg.
 
+## Github Link:
+https://github.com/ST10489659/XHAW---POE-Project.git
+
 ## Table of Contents
 - [Overview](#overview)
 - [Features](#features)
