@@ -69,14 +69,6 @@ This project is licensed under the MIT License.
 
 ---
 
-### Code Reference
-Most navigation and functionality are handled via `expo-router` and React Native components. For details, see:
-- [app/(tabs)/index.tsx](app/(tabs)/index.tsx): Main home and navigation
-- [app/(tabs)/courses/*](app/(tabs)/courses/): Course listings and details
-- [app/(tabs)/calculator.tsx](app/(tabs)/calculator.tsx): Fee calculator logic
-- [app/(tabs)/contact.tsx](app/(tabs)/contact.tsx): Contact and venue details
-
-For further details, please refer to the source code in the respective files.
 ## Screenshots
 
 # App Screen:
@@ -110,3 +102,14 @@ For further details, please refer to the source code in the respective files.
 ![Contact & Venues]![alt text](<assets/images/Screenshots/Laptop Contactscreen1.png>)
 ![alt text](<assets/images/Screenshots/Laptop Contactscreen2.png>)
 ![alt text](<assets/images/Screenshots/Laptop Contactscreen3.png>)
+
+---
+
+### Code Reference
+Most navigation and functionality are handled via `expo-router` and React Native components. For details, see:
+- [app/(tabs)/index.tsx](app/(tabs)/index.tsx): Main home and navigation
+- [app/(tabs)/courses/*](app/(tabs)/courses/): Course listings and details
+- [app/(tabs)/calculator.tsx](app/(tabs)/calculator.tsx): Fee calculator logic
+- [app/(tabs)/contact.tsx](app/(tabs)/contact.tsx): Contact and venue details
+
+For further details, please refer to the source code in the respective files.
