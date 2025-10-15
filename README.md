@@ -77,7 +77,9 @@ Most navigation and functionality are handled via `expo-router` and React Native
 - [app/(tabs)/contact.tsx](app/(tabs)/contact.tsx): Contact and venue details
 
 For further details, please refer to the source code in the respective files.
-## Screenshots
+
+
+# Screenshots
 
 # App Screen:
 
