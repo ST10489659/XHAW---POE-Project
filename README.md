@@ -75,4 +75,52 @@ Most navigation and functionality are handled via `expo-router` and React Native
 - [app/(tabs)/calculator.tsx](app/(tabs)/calculator.tsx): Fee calculator logic
 - [app/(tabs)/contact.tsx](app/(tabs)/contact.tsx): Contact and venue details
 
+## Website / Web App
+
+This app runs on mobile and web!  
+To run locally:
+```bash
+npm run dev
+```
+To build for production:
+```bash
+npm run build:web
+```
+Deploy the `web-build/` folder to a static host like Netlify, Vercel, or GitHub Pages.
+
+You can customize web meta tags in `web/index.html`.
+
 For further details, please refer to the source code in the respective files.
+## Screenshots
+
+# App Screen:
+
+### Home Screen
+![Home Screen]![alt text](assets/images/Screenshots/Homescreen1.png)
+![alt text](assets/images/Screenshots/Homescreen2.png)
+### Courses List
+![Courses List]![alt text](assets/images/Screenshots/Coursescreen1.png)
+![alt text](assets/images/Screenshots/Coursescreen2.png)
+### Fee Calculator
+![Fee Calculator]![alt text](<assets/images/Screenshots/Fee Calculatorscreen1.png>)
+![alt text](<assets/images/Screenshots/Fee Calculatorscreen2.png>)
+### Contact & Venues
+![Contact & Venues]![alt text](assets/images/Screenshots/Contactscreen1.png)
+![alt text](assets/images/Screenshots/Contactscreen2.png)
+![alt text](assets/images/Screenshots/Contactscreen3.png)
+
+# Laptop Screen:
+### Home Screen
+![Home Screen]![alt text](<assets/images/Screenshots/Laptop Homescreen1.png>)
+![alt text](<assets/images/Screenshots/Laptop Homescreen2.png>)
+### Courses List
+![Courses List]![alt text](<assets/images/Screenshots/Laptop Coursescreen1.png>)
+![alt text](assets/images/Screenshots/Laptop Coursescreen2.png)
+### Fee Calculator
+![Fee Calculator]![alt text](<assets/images/Screenshots/Laptop Fee Calculatorscreen1.png>)
+![alt text](<assets/images/Screenshots/Laptop Fee Calculatorscreen2.png>)
+![alt text](<assets/images/Screenshots/Laptop Fee Calculatorscreen3.png>)
+### Contact & Venues
+![Contact & Venues]![alt text](<assets/images/Screenshots/Laptop Contactscreen1.png>)
+![alt text](<assets/images/Screenshots/Laptop Contactscreen2.png>)
+![alt text](<assets/images/Screenshots/Laptop Contactscreen3.png>)

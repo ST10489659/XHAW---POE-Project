@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://empoweringthenation.co.za/sitemap.xml
