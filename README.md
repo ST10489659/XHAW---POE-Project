@@ -97,13 +97,13 @@ This project is licensed under the MIT License.
 ![alt text](<assets/images/Screenshots/Laptop Homescreen2.png>)
 ### Courses List
 ![alt text](<assets/images/Screenshots/Laptop Coursescreen1.png>)
-![alt text](assets/images/Screenshots/Laptop Coursescreen2.png)
+![alt text](<assets/images/Screenshots/Laptop Coursescreen2.png>)
 ### Fee Calculator
 ![alt text](<assets/images/Screenshots/Laptop Fee Calculatorscreen1.png>)
 ![alt text](<assets/images/Screenshots/Laptop Fee Calculatorscreen2.png>)
 ![alt text](<assets/images/Screenshots/Laptop Fee Calculatorscreen3.png>)
 ### Contact & Venues
-![Contact & Venues]![alt text](<assets/images/Screenshots/Laptop Contactscreen1.png>)
+![alt text](<assets/images/Screenshots/Laptop Contactscreen1.png>)
 ![alt text](<assets/images/Screenshots/Laptop Contactscreen2.png>)
 ![alt text](<assets/images/Screenshots/Laptop Contactscreen3.png>)
 
