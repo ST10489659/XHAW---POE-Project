@@ -78,34 +78,52 @@ This project is licensed under the MIT License.
 # App Screen:
 
 ### Home Screen
-![Home Screen]![alt text](assets/images/Screenshots/Homescreen1.png)
+![alt text](assets/images/Screenshots/Homescreen1.png)
 ![alt text](assets/images/Screenshots/Homescreen2.png)
 ### Courses List
-![Courses List]![alt text](assets/images/Screenshots/Coursescreen1.png)
+![alt text](assets/images/Screenshots/Coursescreen1.png)
 ![alt text](assets/images/Screenshots/Coursescreen2.png)
 ### Fee Calculator
-![Fee Calculator]![alt text](<assets/images/Screenshots/Fee Calculatorscreen1.png>)
+![alt text](<assets/images/Screenshots/Fee Calculatorscreen1.png>)
 ![alt text](<assets/images/Screenshots/Fee Calculatorscreen2.png>)
 ### Contact & Venues
-![Contact & Venues]![alt text](assets/images/Screenshots/Contactscreen1.png)
+![alt text](assets/images/Screenshots/Contactscreen1.png)
 ![alt text](assets/images/Screenshots/Contactscreen2.png)
 ![alt text](assets/images/Screenshots/Contactscreen3.png)
 
 # Laptop Screen:
 ### Home Screen
-![Home Screen]![alt text](<assets/images/Screenshots/Laptop Homescreen1.png>)
+![alt text](<assets/images/Screenshots/Laptop Homescreen1.png>)
 ![alt text](<assets/images/Screenshots/Laptop Homescreen2.png>)
 ### Courses List
-![Courses List]![alt text](<assets/images/Screenshots/Laptop Coursescreen1.png>)
+![alt text](<assets/images/Screenshots/Laptop Coursescreen1.png>)
 ![alt text](assets/images/Screenshots/Laptop Coursescreen2.png)
 ### Fee Calculator
-![Fee Calculator]![alt text](<assets/images/Screenshots/Laptop Fee Calculatorscreen1.png>)
+![alt text](<assets/images/Screenshots/Laptop Fee Calculatorscreen1.png>)
 ![alt text](<assets/images/Screenshots/Laptop Fee Calculatorscreen2.png>)
 ![alt text](<assets/images/Screenshots/Laptop Fee Calculatorscreen3.png>)
 ### Contact & Venues
 ![Contact & Venues]![alt text](<assets/images/Screenshots/Laptop Contactscreen1.png>)
 ![alt text](<assets/images/Screenshots/Laptop Contactscreen2.png>)
 ![alt text](<assets/images/Screenshots/Laptop Contactscreen3.png>)
+
+# Website Screen:
+### Home Screen
+<img width="1887" height="858" alt="Xhaw Website image 1" src="https://github.com/user-attachments/assets/b84e2d05-30f6-4c02-ad6a-d99b9973277e" />
+<img width="1883" height="780" alt="Xhaw Website image 2" src="https://github.com/user-attachments/assets/ad30d7d5-1d76-42a6-b0c1-7b62598a42ac" />
+
+### Courses List
+<img width="1890" height="858" alt="Xhaw Website image 3" src="https://github.com/user-attachments/assets/7aacb91f-8dff-4ece-9bd7-ede830504c53" />
+<img width="1892" height="850" alt="Xhaw Website image 4" src="https://github.com/user-attachments/assets/d3100eaa-3910-4b7a-8cc2-227c0fa16f74" />
+
+### Fee Calculator
+<img width="1886" height="852" alt="Xhaw Website image 5" src="https://github.com/user-attachments/assets/136446ba-b492-4a1a-80d6-aef5471bc053" />
+<img width="1882" height="857" alt="Xhaw Website image 6" src="https://github.com/user-attachments/assets/97987c7a-dca8-41fa-9a6e-9b04d46d7b52" />
+<img width="1886" height="856" alt="Xhaw Website image 7" src="https://github.com/user-attachments/assets/b1df0ab1-44b5-4830-b8bc-fc30ecabe283" />
+
+### Contact & Venues
+<img width="1885" height="857" alt="Xhaw Website image 8" src="https://github.com/user-attachments/assets/07a45587-6a0f-47cc-bc0a-d2f503be56a3" />
+<img width="1885" height="856" alt="Xhaw Website image 9" src="https://github.com/user-attachments/assets/123ff60c-dc39-4411-89f9-42d742771161" />
 
 ---
 
