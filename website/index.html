@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Empowering the Nation - Skills Development & Training</title>
+    <meta name="description" content="Upskill in Johannesburg – Six-Month & Six-Week Courses with Fee Calculator and Online Registration">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-brand">
+                <h1>Empowering the Nation</h1>
+                <p>Skills Development & Training</p>
+            </div>
+            <button class="mobile-menu-toggle" id="mobileMenuToggle" aria-label="Toggle menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#home" class="nav-link active">Home</a></li>
+                <li><a href="#courses" class="nav-link">Courses</a></li>
+                <li><a href="#calculator" class="nav-link">Fee Calculator</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Home Section -->
+    <section id="home" class="section home-section">
+        <div class="container">
+            <div class="hero">
+                <h2 class="hero-title">Welcome to Empowering the Nation</h2>
+                <p class="hero-subtitle">Transform Your Future with Professional Skills Training</p>
+            </div>
+
+            <div class="content-section">
+                <h3 class="section-title">About Us</h3>
+                <p class="description">
+                    Empowering the Nation offers comprehensive training programs designed to equip individuals
+                    with practical skills for personal and professional development. Our courses are taught by
+                    experienced instructors at three convenient locations across Johannesburg.
+                </p>
+            </div>
+
+            <div class="content-section">
+                <h3 class="section-title">Our Programs</h3>
+                <p class="description">
+                    We offer both intensive six-month courses and shorter six-week programs to suit your
+                    schedule and learning goals. All courses include hands-on training and certification
+                    upon completion.
+                </p>
+            </div>
+
+            <div class="course-links">
+                <div class="course-link-card">
+                    <div class="course-link-content">
+                        <div>
+                            <h4>Six-Month Courses</h4>
+                            <p>In-depth professional training</p>
+                        </div>
+                        <span class="arrow">→</span>
+                    </div>
+                </div>
+                <div class="course-link-card">
+                    <div class="course-link-content">
+                        <div>
+                            <h4>Six-Week Courses</h4>
+                            <p>Quick skill development</p>
+                        </div>
+                        <span class="arrow">→</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="cta-section">
+                <h3 class="cta-title">Ready to Get Started?</h3>
+                <p class="cta-description">
+                    Use our fee calculator to estimate your course costs, or contact us to speak with
+                    a consultant who can help you choose the right program.
+                </p>
+                <div class="cta-buttons">
+                    <a href="#calculator" class="btn btn-primary">Calculate Fees</a>
+                    <a href="#contact" class="btn btn-secondary">Contact Us</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Courses Section -->
+    <section id="courses" class="section courses-section">
+        <div class="container">
+            <h2 class="page-title">Our Courses</h2>
+            
+            <div class="courses-intro">
+                <h3 class="section-title">Six-Month Courses</h3>
+                <p class="description">
+                    Our comprehensive six-month programs provide in-depth training and hands-on experience.
+                    Perfect for those seeking professional-level skills and certification.
+                </p>
+            </div>
+
+            <div class="courses-grid" id="sixMonthCourses">
+                <!-- Six-month courses will be loaded here -->
+            </div>
+
+            <div class="courses-intro">
+                <h3 class="section-title">Six-Week Courses</h3>
+                <p class="description">
+                    Our intensive six-week programs offer focused training for quick skill development.
+                    Ideal for those looking to upskill in a shorter timeframe.
+                </p>
+            </div>
+
+            <div class="courses-grid" id="sixWeekCourses">
+                <!-- Six-week courses will be loaded here -->
+            </div>
+
+            <div class="discount-notice">
+                <h4>Special Discounts Available</h4>
+                <ul>
+                    <li>5% discount when selecting 2 courses</li>
+                    <li>10% discount when selecting 3 courses</li>
+                    <li>15% discount when selecting 4 or more courses</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Calculator Section -->
+    <section id="calculator" class="section calculator-section">
+        <div class="container">
+            <div class="calculator-header">
+                <h2 class="page-title">Fee Calculator</h2>
+                <p class="subtitle">Select your courses and enter your details to get a quote</p>
+            </div>
+
+            <form id="calculatorForm" class="calculator-form">
+                <div class="form-section">
+                    <h3 class="section-title">Your Details</h3>
+                    
+                    <div class="form-group">
+                        <label for="name">Name *</label>
+                        <input type="text" id="name" name="name" placeholder="Enter your full name" required>
+                        <span class="error-message" id="nameError"></span>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="phone">Phone Number *</label>
+                        <input type="tel" id="phone" name="phone" placeholder="e.g., 0821234567" required>
+                        <span class="error-message" id="phoneError"></span>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">Email Address *</label>
+                        <input type="email" id="email" name="email" placeholder="your.email@example.com" required>
+                        <span class="error-message" id="emailError"></span>
+                    </div>
+                </div>
+
+                <div class="form-section">
+                    <h3 class="section-title">Select Courses *</h3>
+                    <span class="error-message" id="coursesError"></span>
+                    <div class="course-selection" id="courseSelection">
+                        <!-- Courses will be loaded here -->
+                    </div>
+                </div>
+
+                <button type="submit" class="btn btn-primary btn-large">
+                    <span>Calculate Total</span>
+                </button>
+            </form>
+
+            <div id="resultsSection" class="results-section hidden">
+                <h3 class="results-title">Quote Summary</h3>
+                
+                <div class="selected-courses-list">
+                    <h4>Selected Courses:</h4>
+                    <div id="selectedCoursesList"></div>
+                </div>
+
+                <div class="breakdown">
+                    <div class="breakdown-row">
+                        <span>Subtotal:</span>
+                        <span id="subtotal">R0.00</span>
+                    </div>
+                    <div class="breakdown-row discount-row hidden" id="discountRow">
+                        <span id="discountLabel">Discount (0%):</span>
+                        <span id="discountAmount" class="discount-value">-R0.00</span>
+                    </div>
+                    <div class="breakdown-row">
+                        <span>After Discount:</span>
+                        <span id="afterDiscount">R0.00</span>
+                    </div>
+                    <div class="breakdown-row">
+                        <span>VAT (15%):</span>
+                        <span id="vat">R0.00</span>
+                    </div>
+                    <div class="breakdown-row total-row">
+                        <span class="total-label">Total:</span>
+                        <span class="total-value" id="total">R0.00</span>
+                    </div>
+                </div>
+
+                <div class="disclaimer">
+                    <p>
+                        This is a quoted fee only and not a formal invoice. Contact us to confirm your
+                        registration and receive an official invoice.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section contact-section">
+        <div class="container">
+            <h2 class="page-title">Contact Us</h2>
+            <p class="subtitle">
+                Visit any of our three convenient locations across Johannesburg or get in touch with us
+                to learn more about our courses.
+            </p>
+
+            <div class="business-hours">
+                <div class="hours-icon">🕐</div>
+                <div class="hours-content">
+                    <h4>Business Hours</h4>
+                    <p>Monday - Friday: 8:00 AM - 5:00 PM</p>
+                    <p>Saturday: 9:00 AM - 1:00 PM</p>
+                    <p>Sunday: Closed</p>
+                </div>
+            </div>
+
+            <h3 class="section-title">Our Locations</h3>
+            
+            <div class="venues-grid">
+                <div class="venue-card">
+                    <h4>Sandton Campus</h4>
+                    <div class="contact-item">
+                        <span class="icon">📍</span>
+                        <span>123 Rivonia Road, Sandton, Johannesburg, 2196</span>
+                    </div>
+                    <div class="contact-item">
+                        <span class="icon">📞</span>
+                        <a href="tel:0112345678">011 234 5678</a>
+                    </div>
+                    <div class="contact-item">
+                        <span class="icon">✉️</span>
+                        <a href="mailto:sandton@empoweringthenation.co.za">sandton@empoweringthenation.co.za</a>
+                    </div>
+                    <a href="https://www.google.com/maps/search/?api=1&query=-26.1076,28.0567" target="_blank" rel="noopener" class="btn btn-map">View on Map</a>
+                </div>
+
+                <div class="venue-card">
+                    <h4>Rosebank Campus</h4>
+                    <div class="contact-item">
+                        <span class="icon">📍</span>
+                        <span>45 Oxford Road, Rosebank, Johannesburg, 2196</span>
+                    </div>
+                    <div class="contact-item">
+                        <span class="icon">📞</span>
+                        <a href="tel:0113456789">011 345 6789</a>
+                    </div>
+                    <div class="contact-item">
+                        <span class="icon">✉️</span>
+                        <a href="mailto:rosebank@empoweringthenation.co.za">rosebank@empoweringthenation.co.za</a>
+                    </div>
+                    <a href="https://www.google.com/maps/search/?api=1&query=-26.1469,28.0404" target="_blank" rel="noopener" class="btn btn-map">View on Map</a>
+                </div>
+
+                <div class="venue-card">
+                    <h4>Randburg Campus</h4>
+                    <div class="contact-item">
+                        <span class="icon">📍</span>
+                        <span>78 Republic Road, Randburg, Johannesburg, 2194</span>
+                    </div>
+                    <div class="contact-item">
+                        <span class="icon">📞</span>
+                        <a href="tel:0114567890">011 456 7890</a>
+                    </div>
+                    <div class="contact-item">
+                        <span class="icon">✉️</span>
+                        <a href="mailto:randburg@empoweringthenation.co.za">randburg@empoweringthenation.co.za</a>
+                    </div>
+                    <a href="https://www.google.com/maps/search/?api=1&query=-26.0942,27.9820" target="_blank" rel="noopener" class="btn btn-map">View on Map</a>
+                </div>
+            </div>
+
+            <div class="info-section">
+                <h4>General Inquiries</h4>
+                <p>
+                    For general questions about our courses, enrollment process, or any other inquiries,
+                    please contact our head office:
+                </p>
+                <div class="contact-item">
+                    <span class="icon">📞</span>
+                    <a href="tel:0111234567">011 123 4567</a>
+                </div>
+                <div class="contact-item">
+                    <span class="icon">✉️</span>
+                    <a href="mailto:info@empoweringthenation.co.za">info@empoweringthenation.co.za</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Empowering the Nation. All rights reserved.</p>
+            <p>Transforming lives through education and skills development.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

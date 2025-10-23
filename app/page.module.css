@@ -1,0 +1,76 @@
+.container {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+  font-family: system-ui, -apple-system, sans-serif;
+  background-color: #f9fafb;
+  text-align: center;
+}
+
+.card {
+  max-width: 600px;
+  background-color: #fff;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.title {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #1eaf73;
+  margin-bottom: 1rem;
+}
+
+.subtitle {
+  font-size: 1.25rem;
+  color: #111827;
+  margin-bottom: 1.5rem;
+}
+
+.lead {
+  font-size: 1rem;
+  color: #4b5563;
+  line-height: 1.6;
+  margin-bottom: 1rem;
+}
+
+.fileList {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 1.5rem;
+  text-align: left;
+}
+
+.fileItem {
+  padding: 0.5rem 0;
+  color: #6b7280;
+}
+
+.filename {
+  background-color: #f3f4f6;
+  padding: 0.25rem 0.5rem;
+  border-radius: 4px;
+}
+
+.info {
+  background-color: #dbeafe;
+  padding: 1rem;
+  border-radius: 8px;
+  border-left: 4px solid #1eaf73;
+  margin-bottom: 1rem;
+}
+
+.infoText {
+  font-size: 0.875rem;
+  color: #1e40af;
+  margin: 0;
+}
+
+.footerNote {
+  font-size: 0.875rem;
+  color: #6b7280;
+  margin-top: 1rem;
+}
