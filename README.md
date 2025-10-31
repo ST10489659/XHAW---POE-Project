@@ -67,12 +67,8 @@ The web version can be published via Expo or deployed to a static hosting platfo
 - Randburg Campus: randburg@empoweringthenation.co.za, 011 456 7890
 - General: info@empoweringthenation.co.za, 011 123 4567
 
-## License
-This project is licensed under the MIT License.
-
 ---
 
-<<<<<<< HEAD
 ## Screenshots
 
 # App Screen:
