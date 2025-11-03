@@ -1,36 +1,18 @@
-import React from 'react';
+import { useEffect } from 'react';
 import { Stack } from 'expo-router';
+import { StatusBar } from 'expo-status-bar';
+import { useFrameworkReady } from '@/hooks/useFrameworkReady';
 
-export default function CoursesLayout() {
+export default function RootLayout() {
+  useFrameworkReady();
+
   return (
-    <Stack
-      screenOptions={{
-        headerStyle: {
-          backgroundColor: '#1eaf73ff',
-        },
-        headerTintColor: '#ffffff',
-        headerTitleStyle: {
-          fontWeight: 'bold',
-        },
-      }}>
-      <Stack.Screen
-        name="six-month"
-        options={{
-          title: 'Six-Month Courses',
-        }}
-      />
-      <Stack.Screen
-        name="six-week"
-        options={{
-          title: 'Six-Week Courses',
-        }}
-      />
-      <Stack.Screen
-        name="[id]"
-        options={{
-          title: 'Course Details',
-        }}
-      />
-    </Stack>
+    <>
+      <Stack screenOptions={{ headerShown: false }}>
+        <Stack.Screen name="(tabs)" />
+        <Stack.Screen name="+not-found" />
+      </Stack>
+      <StatusBar style="auto" />
+    </>
   );
 }

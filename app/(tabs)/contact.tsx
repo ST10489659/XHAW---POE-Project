@@ -1,4 +1,3 @@
-import React from 'react';
 import { View, Text, StyleSheet, ScrollView, Linking, TouchableOpacity } from 'react-native';
 import { Phone, Mail, MapPin, Clock } from 'lucide-react-native';
 
@@ -28,15 +27,15 @@ const venues = [
 
 export default function ContactScreen() {
   const handlePhonePress = (phone: string) => {
-    Linking.openURL(`tel:R{phone.replace(/\s/g, '')}`);
+    Linking.openURL(`tel:${phone.replace(/\s/g, '')}`);
   };
 
   const handleEmailPress = (email: string) => {
-    Linking.openURL(`mailto:R{email}`);
+    Linking.openURL(`mailto:${email}`);
   };
 
   const handleMapPress = (latitude: number, longitude: number, name: string) => {
-    const url = `https://www.bing.com/maps/directions?ty=0&v=2&sV=1&rtp=%7Epos.-33.960960388183594_18.471986770629883__The+IIE%27s+Varsity+College_&mode=d&cp=-33.960960%7E18.467266&lvl=16&style=r=${latitude},${longitude}`;
+    const url = `https://www.google.com/maps/search/?api=1&query=${latitude},${longitude}`;
     Linking.openURL(url);
   };
 
@@ -52,7 +51,7 @@ export default function ContactScreen() {
         </View>
 
         <View style={styles.businessHours}>
-          <Clock size={24} color="#1eaf73ff" />
+          <Clock size={24} color="#1eaf73" />
           <View style={styles.hoursContent}>
             <Text style={styles.hoursTitle}>Business Hours</Text>
             <Text style={styles.hoursText}>Monday - Friday: 8:00 AM - 5:00 PM</Text>
@@ -73,21 +72,21 @@ export default function ContactScreen() {
                 onPress={() =>
                   handleMapPress(venue.coordinates.latitude, venue.coordinates.longitude, venue.name)
                 }>
-                <MapPin size={20} color="#1eaf73ff" />
+                <MapPin size={20} color="#1eaf73" />
                 <Text style={styles.contactText}>{venue.address}</Text>
               </TouchableOpacity>
 
               <TouchableOpacity
                 style={styles.contactItem}
                 onPress={() => handlePhonePress(venue.phone)}>
-                <Phone size={20} color="#1eaf73ff" />
+                <Phone size={20} color="#1eaf73" />
                 <Text style={styles.contactLink}>{venue.phone}</Text>
               </TouchableOpacity>
 
               <TouchableOpacity
                 style={styles.contactItem}
                 onPress={() => handleEmailPress(venue.email)}>
-                <Mail size={20} color="#1eaf73ff" />
+                <Mail size={20} color="#1eaf73" />
                 <Text style={styles.contactLink}>{venue.email}</Text>
               </TouchableOpacity>
 
@@ -113,14 +112,14 @@ export default function ContactScreen() {
           <TouchableOpacity
             style={styles.contactItem}
             onPress={() => handlePhonePress('011 123 4567')}>
-            <Phone size={20} color="#1eaf73ff" />
+            <Phone size={20} color="#1eaf73" />
             <Text style={styles.contactLink}>011 123 4567</Text>
           </TouchableOpacity>
 
           <TouchableOpacity
             style={styles.contactItem}
             onPress={() => handleEmailPress('info@empoweringthenation.co.za')}>
-            <Mail size={20} color="#1eaf73ff" />
+            <Mail size={20} color="#1eaf73" />
             <Text style={styles.contactLink}>info@empoweringthenation.co.za</Text>
           </TouchableOpacity>
         </View>
@@ -227,12 +226,12 @@ const styles = StyleSheet.create({
   contactLink: {
     flex: 1,
     fontSize: 14,
-    color: '#1eaf73ff',
+    color: '#1eaf73',
     textDecorationLine: 'underline',
   },
   mapButton: {
     flexDirection: 'row',
-    backgroundColor: '#1eaf73ff',
+    backgroundColor: '#1eaf73',
     borderRadius: 8,
     paddingVertical: 12,
     paddingHorizontal: 16,
@@ -274,17 +273,17 @@ const styles = StyleSheet.create({
     borderRadius: 12,
     padding: 20,
     borderLeftWidth: 4,
-    borderLeftColor: '#1eaf73ff',
+    borderLeftColor: '#1eaf73',
   },
   ctaTitle: {
     fontSize: 18,
     fontWeight: 'bold',
-    color: '#1eaf73ff',
+    color: '#1eaf73',
     marginBottom: 8,
   },
   ctaText: {
     fontSize: 14,
-    color: '#1eaf73ff',
+    color: '#1eaf73',
     lineHeight: 22,
   },
 });

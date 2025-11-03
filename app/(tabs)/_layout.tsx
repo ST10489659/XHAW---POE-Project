@@ -1,4 +1,3 @@
-import React from 'react';
 import { Tabs } from 'expo-router';
 import { Home, BookOpen, Calculator, Phone } from 'lucide-react-native';
 
@@ -8,13 +7,13 @@ export default function TabLayout() {
       screenOptions={{
         headerShown: true,
         headerStyle: {
-          backgroundColor: '#1eaf73ff',
+          backgroundColor: '#1eaf73',
         },
         headerTintColor: '#ffffff',
         headerTitleStyle: {
           fontWeight: 'bold',
         },
-        tabBarActiveTintColor: '#1eaf73ff',
+        tabBarActiveTintColor: '#1eaf73',
         tabBarInactiveTintColor: '#6b7280',
         tabBarStyle: {
           backgroundColor: '#ffffff',

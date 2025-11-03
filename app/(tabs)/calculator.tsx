@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 import {
   View,
   Text,
@@ -85,13 +85,13 @@ export default function CalculatorScreen() {
 
     if (!phone.trim()) {
       newErrors.phone = 'Phone number is required';
-    } else if (!/^\d{10}R/.test(phone.replace(/\s/g, ''))) {
+    } else if (!/^\d{10}$/.test(phone.replace(/\s/g, ''))) {
       newErrors.phone = 'Please enter a valid 10-digit phone number';
     }
 
     if (!email.trim()) {
       newErrors.email = 'Email is required';
-    } else if (!/^[^\s@]+@[^\s@]+\.[^\s@]+R/.test(email)) {
+    } else if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) {
       newErrors.email = 'Please enter a valid email address';
     }
 
@@ -130,7 +130,7 @@ export default function CalculatorScreen() {
   if (loading) {
     return (
       <View style={styles.centerContainer}>
-        <ActivityIndicator size="large" color="#1eaf73ff" />
+        <ActivityIndicator size="large" color="#1eaf73" />
         <Text style={styles.loadingText}>Loading courses...</Text>
       </View>
     );
@@ -140,7 +140,7 @@ export default function CalculatorScreen() {
     <ScrollView style={styles.container}>
       <View style={styles.content}>
         <View style={styles.header}>
-          <CalcIcon size={32} color="#1eaf73ff" />
+          <CalcIcon size={32} color="#1eaf73" />
           <Text style={styles.title}>Fee Calculator</Text>
           <Text style={styles.subtitle}>
             Select your courses and enter your details to get a quote
@@ -214,7 +214,7 @@ export default function CalculatorScreen() {
                 }}>
                 <View style={styles.courseCheckbox}>
                   {course.selected ? (
-                    <CheckSquare size={24} color="#1eaf73ff" />
+                    <CheckSquare size={24} color="#1eaf73" />
                   ) : (
                     <Square size={24} color="#9ca3af" />
                   )}
@@ -384,7 +384,7 @@ const styles = StyleSheet.create({
     gap: 12,
   },
   courseItemSelected: {
-    borderColor: '#1eaf73ff',
+    borderColor: '#1eaf73',
     backgroundColor: '#eff6ff',
   },
   courseCheckbox: {
@@ -407,11 +407,11 @@ const styles = StyleSheet.create({
   courseFee: {
     fontSize: 16,
     fontWeight: 'bold',
-    color: '#1eaf73ff',
+    color: '#1eaf73',
   },
   calculateButton: {
     flexDirection: 'row',
-    backgroundColor: '#1eaf73ff',
+    backgroundColor: '#1eaf73',
     borderRadius: 8,
     paddingVertical: 16,
     alignItems: 'center',
@@ -514,7 +514,7 @@ const styles = StyleSheet.create({
   totalValue: {
     fontSize: 24,
     fontWeight: 'bold',
-    color: '#1eaf73ff',
+    color: '#1eaf73',
   },
   disclaimer: {
     marginTop: 20,

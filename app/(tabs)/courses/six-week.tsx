@@ -1,4 +1,3 @@
-import React from 'react';
 import { useState, useEffect } from 'react';
 import { View, Text, StyleSheet, ScrollView, TouchableOpacity, ActivityIndicator } from 'react-native';
 import { useRouter } from 'expo-router';
@@ -36,7 +35,7 @@ export default function SixWeekCoursesScreen() {
   if (loading) {
     return (
       <View style={styles.centerContainer}>
-        <ActivityIndicator size="large" color="#1eaf73ff" />
+        <ActivityIndicator size="large" color="#1eaf73" />
         <Text style={styles.loadingText}>Loading courses...</Text>
       </View>
     );
@@ -72,7 +71,7 @@ export default function SixWeekCoursesScreen() {
               onPress={() => router.push(`/courses/${course.id}?type=six-week`)}>
               <View style={styles.courseHeader}>
                 <Text style={styles.courseTitle}>{course.name}</Text>
-                <ArrowRight size={20} color="#1eaf73ff" />
+                <ArrowRight size={20} color="#1eaf73" />
               </View>
               <Text style={styles.courseDescription} numberOfLines={2}>
                 {course.description}
@@ -184,17 +183,17 @@ const styles = StyleSheet.create({
     borderRadius: 12,
     padding: 20,
     borderLeftWidth: 4,
-    borderLeftColor: '#1eaf73ff',
+    borderLeftColor: '#1eaf73',
   },
   discountTitle: {
     fontSize: 18,
     fontWeight: 'bold',
-    color: '#1eaf73ff',
+    color: '#1eaf73',
     marginBottom: 12,
   },
   discountText: {
     fontSize: 14,
-    color: '#1eaf73ff',
+    color: '#1eaf73',
     lineHeight: 22,
   },
   loadingText: {
@@ -209,7 +208,7 @@ const styles = StyleSheet.create({
     marginBottom: 16,
   },
   retryButton: {
-    backgroundColor: '#1eaf73ff',
+    backgroundColor: '#1eaf73',
     paddingHorizontal: 24,
     paddingVertical: 12,
     borderRadius: 8,

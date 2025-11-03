@@ -1,4 +1,3 @@
-import React from 'react';
 import { useState, useEffect } from 'react';
 import { View, Text, StyleSheet, ScrollView, ActivityIndicator, TouchableOpacity } from 'react-native';
 import { useLocalSearchParams, useRouter } from 'expo-router';
@@ -52,7 +51,7 @@ export default function CourseDetailScreen() {
   if (loading) {
     return (
       <View style={styles.centerContainer}>
-        <ActivityIndicator size="large" color="#1eaf73ff" />
+        <ActivityIndicator size="large" color="#1eaf73" />
         <Text style={styles.loadingText}>Loading course details...</Text>
       </View>
     );
@@ -83,12 +82,12 @@ export default function CourseDetailScreen() {
 
         <View style={styles.infoCards}>
           <View style={styles.infoCard}>
-            <Clock size={24} color="#1eaf73ff" />
+            <Clock size={24} color="#1eaf73" />
             <Text style={styles.infoLabel}>Duration</Text>
             <Text style={styles.infoValue}>{course.duration}</Text>
           </View>
           <View style={styles.infoCard}>
-            <DollarSign size={24} color="#1eaf73ff" />
+            <DollarSign size={24} color="#1eaf73" />
             <Text style={styles.infoLabel}>Course Fee</Text>
             <Text style={styles.infoValue}>R{course.fee.toFixed(2)}</Text>
           </View>
@@ -96,7 +95,7 @@ export default function CourseDetailScreen() {
 
         <View style={styles.section}>
           <View style={styles.sectionHeader}>
-            <BookOpen size={20} color="#1eaf73ff" />
+            <BookOpen size={20} color="#1eaf73" />
             <Text style={styles.sectionTitle}>Course Description</Text>
           </View>
           <Text style={styles.description}>{course.description}</Text>
@@ -104,7 +103,7 @@ export default function CourseDetailScreen() {
 
         <View style={styles.section}>
           <View style={styles.sectionHeader}>
-            <Award size={20} color="#1eaf73ff" />
+            <Award size={20} color="#1eaf73" />
             <Text style={styles.sectionTitle}>What You'll Learn</Text>
           </View>
           <View style={styles.bulletPoints}>
@@ -176,7 +175,7 @@ const styles = StyleSheet.create({
     alignSelf: 'flex-start',
   },
   badgeText: {
-    color: '#1eaf73ff',
+    color: '#1eaf73',
     fontSize: 14,
     fontWeight: '600',
   },
@@ -249,17 +248,17 @@ const styles = StyleSheet.create({
     padding: 20,
     marginBottom: 16,
     borderLeftWidth: 4,
-    borderLeftColor: '#1eaf73ff',
+    borderLeftColor: '#1eaf73',
   },
   discountTitle: {
     fontSize: 18,
     fontWeight: 'bold',
-    color: '#1eaf73ff',
+    color: '#1eaf73',
     marginBottom: 8,
   },
   discountText: {
     fontSize: 14,
-    color: '#1eaf73ff',
+    color: '#1eaf73',
     lineHeight: 22,
   },
   ctaSection: {
@@ -267,7 +266,7 @@ const styles = StyleSheet.create({
     marginTop: 8,
   },
   primaryButton: {
-    backgroundColor: '#1eaf73ff',
+    backgroundColor: '#1eaf73',
     borderRadius: 8,
     paddingVertical: 16,
     alignItems: 'center',
@@ -283,10 +282,10 @@ const styles = StyleSheet.create({
     paddingVertical: 16,
     alignItems: 'center',
     borderWidth: 2,
-    borderColor: '#1eaf73ff',
+    borderColor: '#1eaf73',
   },
   secondaryButtonText: {
-    color: '#1eaf73ff',
+    color: '#1eaf73',
     fontSize: 16,
     fontWeight: 'bold',
   },
@@ -302,7 +301,7 @@ const styles = StyleSheet.create({
     marginBottom: 16,
   },
   retryButton: {
-    backgroundColor: '#1eaf73ff',
+    backgroundColor: '#1eaf73',
     paddingHorizontal: 24,
     paddingVertical: 12,
     borderRadius: 8,

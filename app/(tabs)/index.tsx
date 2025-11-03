@@ -1,4 +1,3 @@
-import React from 'react';
 import { View, Text, StyleSheet, ScrollView, TouchableOpacity, Image } from 'react-native';
 import { useRouter } from 'expo-router';
 import { ArrowRight } from 'lucide-react-native';
@@ -43,7 +42,7 @@ export default function HomeScreen() {
                 <Text style={styles.courseLinkTitle}>Six-Month Courses</Text>
                 <Text style={styles.courseLinkSubtitle}>In-depth professional training</Text>
               </View>
-              <ArrowRight size={24} color="#1eaf6eff" />
+              <ArrowRight size={24} color="#1eaf73" />
             </View>
           </TouchableOpacity>
 
@@ -55,7 +54,7 @@ export default function HomeScreen() {
                 <Text style={styles.courseLinkTitle}>Six-Week Courses</Text>
                 <Text style={styles.courseLinkSubtitle}>Quick skill development</Text>
               </View>
-              <ArrowRight size={24} color="#1eaf73ff" />
+              <ArrowRight size={24} color="#1eaf73" />
             </View>
           </TouchableOpacity>
         </View>
@@ -90,7 +89,7 @@ const styles = StyleSheet.create({
     backgroundColor: '#f9fafb',
   },
   header: {
-    backgroundColor: '#1eaf73ff',
+    backgroundColor: '#1eaf73',
     paddingVertical: 40,
     paddingHorizontal: 20,
   },
@@ -184,7 +183,7 @@ const styles = StyleSheet.create({
   },
   primaryButton: {
     flex: 1,
-    backgroundColor: '#1eaf73ff',
+    backgroundColor: '#1eaf73',
     borderRadius: 8,
     paddingVertical: 14,
     alignItems: 'center',
@@ -201,10 +200,10 @@ const styles = StyleSheet.create({
     paddingVertical: 14,
     alignItems: 'center',
     borderWidth: 2,
-    borderColor: '#1eaf73ff',
+    borderColor: '#1eaf73',
   },
   secondaryButtonText: {
-    color: '#1eaf73ff',
+    color: '#1eaf73',
     fontSize: 16,
     fontWeight: 'bold',
   },
